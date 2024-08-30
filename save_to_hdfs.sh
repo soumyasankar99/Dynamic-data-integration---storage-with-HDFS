@@ -1,4 +1,4 @@
-#save_to_hdfs.sh
+
 
 #!/bin/bash
 
