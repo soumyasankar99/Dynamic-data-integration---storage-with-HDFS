@@ -1,0 +1,9 @@
+#Save CSV Data to HDFS: script
+
+chmod +x save_to_hdfs.sh
+./save_to_hdfs.sh
+
+#Create Hive Database, Load Data, and Query Results: script
+
+chmod +x hive_operations.sh
+./hive_operations.sh
