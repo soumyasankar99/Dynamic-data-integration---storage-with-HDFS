@@ -1,4 +1,4 @@
-# hive_operations.sh
+
 
 #!/bin/bash
 
