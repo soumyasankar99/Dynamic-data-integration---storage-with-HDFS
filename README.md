@@ -42,27 +42,23 @@ For more on How to implement Devbox on AWS EC2 and execute all Hadoop Ecosystem 
 ### Upload CSV Data to HDFS :
 
 To upload the CSV data into HDFS make execute these script execute step-by-step:
-a) Run the script:
+Run the script:
    
-   chmod +x save_to_hdfs.sh
-
-b) Run the script:
-
-   ./save_to_hdfs.sh
+  => chmod +x save_to_hdfs.sh
+  =>./save_to_hdfs.sh
    
-   This will upload your 'population_data.csv' file to the specified HDFS directory.
+   
+This will upload your 'population_data.csv' file to the specified HDFS directory.
 
 ### Create Hive Database, Load Data, and Query Results :
 
 To create the Hive database and table, load the data, and query it, execute these script execute step-by-step :
 
-a)  Run the script:
+Run the script:
 
- chmod +x hive_operations.sh
+=> chmod +x hive_operations.sh
 
-b) Run the script:
-
-./hive_operations.sh
+=> ./hive_operations.sh
 
 This will create :
 
@@ -70,6 +66,14 @@ This will create :
 2) a Hive table named 'p_data'.
 3) Load data from the HDFS file into the Hive table.
 4) Query the Hive table to verify the data load.
+
+### Automate the Entire process:
+Run the script:
+
+=> chmod +x automate.sh
+=> ./automate.sh
+
+This will automate the entire process from saving the CSV Data file into HDFS to Create a Hive Database , Loading the data into it and Query results.
 
 ### Explanation of Commands
 
