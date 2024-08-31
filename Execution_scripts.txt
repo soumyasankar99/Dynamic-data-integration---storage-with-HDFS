@@ -1,9 +1,13 @@
-#Save CSV Data to HDFS: script
+#Save CSV Data to HDFS: Script
 
 chmod +x save_to_hdfs.sh
 ./save_to_hdfs.sh
 
-#Create Hive Database, Load Data, and Query Results: script
+#Create Hive Database, Load Data, and Query Results: Script
 
 chmod +x hive_operations.sh
 ./hive_operations.sh
+
+# To Run the Automation process of CSV Data to HDFS and Execute all the Hive Process : Script
+chmod +x automate.sh
+./automate.sh  
