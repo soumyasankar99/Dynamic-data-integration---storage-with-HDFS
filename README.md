@@ -26,7 +26,11 @@ Prerequisites:
 
 More about DataFusion-DevBox :
 ------------------------------
+
+
 <img width="784" alt="HDFS-DEVBOX" src="https://github.com/user-attachments/assets/b997ba79-8c36-4140-b640-76ee9947954d">
+
+
 This all-in-one Docker environment has everything you need to master Hadoop, Spark, Hive, HBase, Kafka, and more—all from the comfort 
 of a browser-based CodeServer.
 No more bulky VM setups or storage headaches! 😅
