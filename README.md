@@ -39,7 +39,9 @@ DevBox uses the concept of Codespace in a way and Docker to fully utilised to sp
 
 For the projects perspective you will have a hassel free experience as everythingis pre-installed you just have to Execute on terminal and if you stuck at some point go for the official document of that perticular service . Its uses the Documet commands nothing here is 3rd party. 
 
-For more on How to implement Devbox on AWS EC2 and execute all Hadoop Ecosystem related projects go refers to this LinkedIn post that i have been created. I am posting th link 🔗: https://www.linkedin.com/pulse/devbox-ec2-virtual-machine-all-one-hadoop-ecosystem-web-panda-3jflc/?trackingId=Zw8pGGNaTf6RtXwetPdG%2Bw%3D%3D
+For more on How to implement Devbox on AWS EC2 and execute all Hadoop Ecosystem related projects go refers to this LinkedIn post that i have been created.  
+
+Link 🔗: https://www.linkedin.com/pulse/devbox-ec2-virtual-machine-all-one-hadoop-ecosystem-web-panda-3jflc/?trackingId=Zw8pGGNaTf6RtXwetPdG%2Bw%3D%3D
 
 ### Implementation steps:
 -------------------------
