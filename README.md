@@ -2,7 +2,9 @@
 Overview:
 --------
 This project demonstrates the process of ingesting a CSV file into Hadoop's HDFS and then using Apache Hive to create a database and table, load the CSV data, and query it. The project is organized into two main scripts:
-![Screenshot 2024-10-09 131302](https://github.com/user-attachments/assets/5bfcd5b4-add3-477e-b123-426fe7763c03)
+ 
+ <img width="784" alt="HDFS-DEVBOX" src="https://github.com/user-attachments/assets/b997ba79-8c36-4140-b640-76ee9947954d">
+
 
 1) Hadoop Bash Script: This script uploads a CSV file from the local file system to HDFS.
 2) HiveQL Bash Script: This script creates a Hive database, loads the CSV data into a table, and then runs a query to verify the data.
