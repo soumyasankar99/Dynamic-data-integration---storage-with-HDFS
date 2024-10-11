@@ -46,6 +46,8 @@ To upload the CSV data into HDFS make execute these script execute step-by-step:
 Run the script:
    
   > chmod +x save_to_hdfs.sh
+  
+  
   >./save_to_hdfs.sh
    
    <img width="960" alt="HDFS-HIVE" src="https://github.com/user-attachments/assets/52814299-f36e-41e9-8646-a2b062a850a8">
@@ -65,6 +67,7 @@ To create the Hive database and table, load the data, and query it, execute thes
 Run the script:
 
 > chmod +x hive_operations.sh
+
 
 > ./hive_operations.sh
 
@@ -89,10 +92,15 @@ This will create :
 Run the script:
 
 > chmod +x automate.sh
+
+
 > ./automate.sh
+
+
 <img width="960" alt="HDFS-HIVE-2" src="https://github.com/user-attachments/assets/9b078957-4e68-42dd-b38e-e0a0aa0712bd">
 
-This will automate the entire process from saving the CSV Data file into HDFS to Create a Hive Database , Loading the data into it and Query results.
+
+##### This will automate the entire process from saving the CSV Data file into HDFS to Create a Hive Database , Loading the data into it and Query results.
 
 ### Explanation of Commands
 
