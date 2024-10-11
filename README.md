@@ -3,9 +3,6 @@ Overview:
 --------
 This project demonstrates the process of ingesting a CSV file into Hadoop's HDFS and then using Apache Hive to create a database and table, load the CSV data, and query it. The project is organized into two main scripts:
  
- <img width="784" alt="HDFS-DEVBOX" src="https://github.com/user-attachments/assets/b997ba79-8c36-4140-b640-76ee9947954d">
-
-
 1) Hadoop Bash Script: This script uploads a CSV file from the local file system to HDFS.
 2) HiveQL Bash Script: This script creates a Hive database, loads the CSV data into a table, and then runs a query to verify the data.
 
@@ -29,6 +26,7 @@ Prerequisites:
 
 More about DataFusion-DevBox :
 ------------------------------
+<img width="784" alt="HDFS-DEVBOX" src="https://github.com/user-attachments/assets/b997ba79-8c36-4140-b640-76ee9947954d">
 This all-in-one Docker environment has everything you need to master Hadoop, Spark, Hive, HBase, Kafka, and more—all from the comfort 
 of a browser-based CodeServer.
 No more bulky VM setups or storage headaches! 😅
