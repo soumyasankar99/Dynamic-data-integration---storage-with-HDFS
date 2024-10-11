@@ -51,7 +51,7 @@ Run the script:
    <img width="960" alt="HDFS-HIVE" src="https://github.com/user-attachments/assets/52814299-f36e-41e9-8646-a2b062a850a8">
 
 
-This will upload your 'population_data.csv' file to the specified HDFS directory.
+#### This will upload your 'population_data.csv' file to the specified HDFS directory.
 
 
 
