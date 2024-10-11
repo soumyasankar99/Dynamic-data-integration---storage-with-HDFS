@@ -55,6 +55,8 @@ Run the script:
 
 This will upload your 'population_data.csv' file to the specified HDFS directory.
 
+
+
 <img width="960" alt="HDFS-HIVE-5" src="https://github.com/user-attachments/assets/93e3e5d9-de44-4649-bd6b-eed1516646cf">
 
 
@@ -79,6 +81,9 @@ This will create :
 4) Query the Hive table to verify the data load.
 
 <img width="960" alt="HDFS-HIVE-6" src="https://github.com/user-attachments/assets/34c77ac5-4a6d-4693-bd72-23c3d48af971">
+
+
+
 <img width="960" alt="HDFS-HIVE-7" src="https://github.com/user-attachments/assets/be2e6086-02de-41b1-8354-5798c03039c4">
 
 
