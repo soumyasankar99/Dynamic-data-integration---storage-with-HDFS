@@ -2,6 +2,7 @@
 Overview:
 --------
 This project demonstrates the process of ingesting a CSV file into Hadoop's HDFS and then using Apache Hive to create a database and table, load the CSV data, and query it. The project is organized into two main scripts:
+![Screenshot 2024-10-09 131302](https://github.com/user-attachments/assets/5bfcd5b4-add3-477e-b123-426fe7763c03)
 
 1) Hadoop Bash Script: This script uploads a CSV file from the local file system to HDFS.
 2) HiveQL Bash Script: This script creates a Hive database, loads the CSV data into a table, and then runs a query to verify the data.
@@ -47,8 +48,11 @@ Run the script:
   => chmod +x save_to_hdfs.sh
   =>./save_to_hdfs.sh
    
-   
+   <img width="960" alt="HDFS-HIVE" src="https://github.com/user-attachments/assets/52814299-f36e-41e9-8646-a2b062a850a8">
+
 This will upload your 'population_data.csv' file to the specified HDFS directory.
+<img width="960" alt="HDFS-HIVE-5" src="https://github.com/user-attachments/assets/93e3e5d9-de44-4649-bd6b-eed1516646cf">
+
 
 ### Create Hive Database, Load Data, and Query Results :
 
@@ -60,6 +64,9 @@ Run the script:
 
 => ./hive_operations.sh
 
+<img width="960" alt="HDFS-HIVE-1" src="https://github.com/user-attachments/assets/78750017-4011-4bd1-b7a1-fc16be35e99d">
+
+
 This will create :
 
 1) a Hive database named 'population_db'.
@@ -67,11 +74,16 @@ This will create :
 3) Load data from the HDFS file into the Hive table.
 4) Query the Hive table to verify the data load.
 
+<img width="960" alt="HDFS-HIVE-6" src="https://github.com/user-attachments/assets/34c77ac5-4a6d-4693-bd72-23c3d48af971">
+<img width="960" alt="HDFS-HIVE-7" src="https://github.com/user-attachments/assets/be2e6086-02de-41b1-8354-5798c03039c4">
+
+
 ### Automate the Entire process:
 Run the script:
 
 => chmod +x automate.sh
 => ./automate.sh
+<img width="960" alt="HDFS-HIVE-2" src="https://github.com/user-attachments/assets/9b078957-4e68-42dd-b38e-e0a0aa0712bd">
 
 This will automate the entire process from saving the CSV Data file into HDFS to Create a Hive Database , Loading the data into it and Query results.
 
